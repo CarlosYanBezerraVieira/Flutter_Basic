@@ -10,14 +10,14 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.green,
         title: const Text("Treino"),
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.add)),
-          IconButton(onPressed: () {}, icon: Icon(Icons.cached)),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.add)),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.cached)),
         ],
       ),
       drawer: const Drawer(
         child: Center(child: Text("Drawer Aberto")),
       ),
-      endDrawer: Drawer(
+      endDrawer: const Drawer(
         child: Center(child: Text("Drawer End ")),
       ),
       body: const Center(

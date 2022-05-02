@@ -36,7 +36,7 @@ class _DetalheState extends State<Detalhe> {
               onPressed: () {
                 Navigator.of(context).pop("Deu certo");
               },
-              child: Text("voltar"))
+              child: const Text("voltar"))
         ],
       ),
     );

@@ -6,7 +6,6 @@ class ImagesPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(MediaQuery.of(context).devicePixelRatio);
     return Scaffold(
       appBar: AppBar(
         title: Text(
